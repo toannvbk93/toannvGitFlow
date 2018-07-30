@@ -1,10 +1,10 @@
-# member/renewToken
+# api/member/renewToken
 
 ## Overview
 
 | Endpoint | Name | Type | Authentication |
 | --- | --- | --- | --- |
-| /gapi/member | renewToken | Graphql (POST) | Required |
+| /gapi/member | renewToken | Graphql \(POST\) | Required |
 
 Renew the token for using the API. If it’s already logged in to T-Magazine, check the validity of the TSUTAYA side token. If processing fails, it is necessary to log in again from T-Magazine.
 
@@ -31,27 +31,10 @@ must set token to ‘Authorization’ HTTP header.
 ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li> Renew the token for using the API. </li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication Failure</li>
-      <ul>
-        <li>Session token is invalid</li>
-      </ul>
-      <li>Internal Server Error</li>
-      <ul>
-        <li>Internal server error occured</li>
-      </ul>
-    </ul>
-  </td>
-  </tr>
-</table>
+
+| Success |  Renew the token for using the API. |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInternal Server ErrorInternal server error occured |
 
 #### Success Schema
 

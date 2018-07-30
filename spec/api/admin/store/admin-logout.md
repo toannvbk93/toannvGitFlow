@@ -1,10 +1,10 @@
-# admin/logout\(POST\)
+# admin/logout
 
 ## Overview
 
 | Endpoint | Name | Type |
 | --- | --- | --- |
-| /admin/logout | logout (Administrator) | POST |
+| /admin/logout | logout \(Administrator\) | POST |
 
 ## Specification
 

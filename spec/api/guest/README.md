@@ -1,4 +1,5 @@
-# Guest API reference
+# guest
 
- - [Store](store/README.md)
- - [AppSync](appsync/README.md)
+* [Store](store/)
+* [AppSync](appsync/)
+

@@ -4,7 +4,7 @@
 
 | Endpoint | Name | Type | Authentication |
 | --- | --- | --- | --- |
-| /graphql | getLoginDeviceList | Graphql (POST) | Required |
+| /graphql | getLoginDeviceList | Graphql \(POST\) | Required |
 
 Retrieves a list of currently logged-in devices.
 
@@ -32,27 +32,9 @@ ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
 
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li>Get the list of user's currently logged-in devices.</li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication Failure</li>
-      <ul>
-        <li>Session token is invalid</li>
-      </ul>
-      <li>Internal Server Error</li>
-      <ul>
-        <li>Internal server error occured</li>
-      </ul>
-    </ul>
-  </td>
-  </tr>
-</table>
+| Success | Get the list of user's currently logged-in devices. |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInternal Server ErrorInternal server error occured |
 
 #### Success Schema
 

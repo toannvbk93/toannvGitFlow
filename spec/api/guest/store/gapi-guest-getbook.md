@@ -4,7 +4,7 @@
 
 | Endpoint | Name | Type | Authentication |
 | --- | --- | --- | --- |
-| /gapi/guest | getBook | Graphql(POST) | Required |
+| /gapi/guest | getBook | Graphql\(POST\) | Required |
 
 Retrieves information of a book.
 
@@ -18,7 +18,6 @@ query {
    titleId : <titleId>, 
   )
 }
-
 ```
 
 ### Parameters
@@ -31,37 +30,13 @@ query {
 
 must set token to ‘Authorization’ HTTP header.
 
-ex) Authorization: Bearer asdfasdfasdfasdfasdf
+ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
 
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li>Retrieves information of a book.</li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication Failure</li>
-      <ul>
-        <li>Session token is invalid</li>
-      </ul>
-      <li>Invalid Argument</li>
-      <ul>
-        <li>Page token is invalid</li>
-        <li>Sort parameter is invalid</li>
-      </ul>
-      <li>Not Found</li>
-      <li>Internal Server Error</li>
-      <ul>
-        <li>Internal server error occured</li>
-      </ul>
-    </ul>
-  </td>
-  </tr>
-</table>
+| Success | Retrieves information of a book. |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInvalid ArgumentPage token is invalidSort parameter is invalidNot FoundInternal Server ErrorInternal server error occured |
 
 #### Success Schema
 
@@ -87,7 +62,6 @@ ex) Authorization: Bearer asdfasdfasdfasdfasdf
     "message": "<Session token is invalid | Page token is invalid | Sort parameter is invalid | Internal server error occured >"
   }
 }
-
 ```
 
 ## Sample
@@ -114,6 +88,5 @@ ex) Authorization: Bearer asdfasdfasdfasdfasdf
   }
 
 }
-
 ```
 

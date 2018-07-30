@@ -4,7 +4,7 @@
 
 | Endpoint | Name | Type | Authentication |
 | --- | --- | --- | --- |
-| /gapi/guest | getBookListByTitleId | Graphql(POST) | Required |
+| /gapi/guest | getBookListByTitleId | Graphql\(POST\) | Required |
 
 Retrieves a list of books corresponding to the title.
 
@@ -33,33 +33,13 @@ query {
 
 must set token to ‘Authorization’ HTTP header.
 
-ex) Authorization: Bearer asdfasdfasdfasdfasdf
+ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
 
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li>Retrieves a list of books corresponding to the title.</li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication Failure</li>
-      <ul>
-        <li>Session token is invalid</li>
-      </ul>
-      <li>Invalid Argument</li>
-      <ul>
-        <li>TitleId is invalid</li>
-      </ul>
-      <li>Not Found</li>
-      <li>Internal Server Error</li>
-    </ul>
-  </td>
-  </tr>
-</table>
+| Success | Retrieves a list of books corresponding to the title. |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInvalid ArgumentTitleId is invalidNot FoundInternal Server Error |
 
 #### Success Schema
 

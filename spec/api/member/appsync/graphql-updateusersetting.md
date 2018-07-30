@@ -4,7 +4,7 @@
 
 | Endpoint | Name | Type | Authentication |
 | --- | --- | --- | --- |
-| /graphql | updateUserSetting | Graphql (POST) | Required |
+| /graphql | updateUserSetting | Graphql \(POST\) | Required |
 
 Updates user-specific setting information
 
@@ -35,31 +35,10 @@ Must set token to ‘Authorization’ HTTP header.
 ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li>  Update user's cofiguration information. </li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication Failure</li>
-      <ul>
-        <li>Session token is invalid</li>
-      </ul>
-      <li>Invalid Argument</li>
-      <ul>
-        <li> Parametor is invalid</li>
-      </ul>
-      <li>Internal Server Error</li>
-      <ul>
-        <li>Internal server error occured</li>
-      </ul>
-    </ul>
-  </td>
-  </tr>
-</table>
+
+| Success |  Update user's cofiguration information. |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInvalid Argument Parametor is invalidInternal Server ErrorInternal server error occured |
 
 #### Success Schema
 

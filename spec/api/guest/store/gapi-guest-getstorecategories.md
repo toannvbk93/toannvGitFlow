@@ -4,9 +4,9 @@
 
 | Endpoint | Name | Type | Authentication |
 | --- | --- | --- | --- |
-| /gapi/guest | getStoreCategories | Graphql(POST) | Required |
+| /gapi/guest | getStoreCategories | Graphql\(POST\) | Required |
 
-Retrieves all store categories. (Argument candidates: top, recommend, ranking and orderby)
+Retrieves all store categories. \(Argument candidates: top, recommend, ranking and orderby\)
 
 ## Specification
 
@@ -32,37 +32,13 @@ query {
 
 must set token to ‘Authorization’ HTTP header.
 
-ex) Authorization: Bearer asdfasdfasdfasdfasdf
+ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
 
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li>Retrieves all store categories.</li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication Failure</li>
-      <ul>
-        <li>Session token is invalid</li>
-      </ul>
-      <li>Invalid Argument</li>
-      <ul>
-        <li>Page token is invalid</li>
-        <li>Sort parameter is invalid</li>
-      </ul>
-      <li>Not Found</li>
-      <li>Internal Server Error</li>
-      <ul>
-        <li>Internal server error occured</li>
-      </ul>
-    </ul>
-  </td>
-  </tr>
-</table>
+| Success | Retrieves all store categories. |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInvalid ArgumentPage token is invalidSort parameter is invalidNot FoundInternal Server ErrorInternal server error occured |
 
 #### Success Schema
 

@@ -4,7 +4,7 @@
 
 | Endpoint | Name | Type | Authentication |
 | --- | --- | --- | --- |
-| /graphql | addLoginDevice | Graphql (POST) | Required |
+| /graphql | addLoginDevice | Graphql \(POST\) | Required |
 
 Adds a device information as currently logged in device.\(This API will not be affected by the number limit of devices.\)
 
@@ -36,27 +36,9 @@ ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
 
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li>Adds a device information as currently logged in device</li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication Failure</li>
-      <ul>
-        <li>Session token is invalid</li>
-      </ul>
-      <li>Internal Server Error</li>
-      <ul>
-        <li>Internal server error occured</li>
-      </ul>
-    </ul>
-  </td>
-  </tr>
-</table>
+| Success | Adds a device information as currently logged in device |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInternal Server ErrorInternal server error occured |
 
 #### Success Schema
 

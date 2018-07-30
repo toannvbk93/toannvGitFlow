@@ -4,7 +4,7 @@
 
 | Endpoint | Name | Type | Authentication |
 | --- | --- | --- | --- |
-| /graphql | getFavoriteList | Graphql (POST) | Required |
+| /graphql | getFavoriteList | Graphql \(POST\) | Required |
 
 Get a list of Books registered as user's favorite.
 
@@ -32,27 +32,9 @@ ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
 
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li>Return a list of Books registered as user's favorite.</li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication Failure</li>
-      <ul>
-        <li>Session token is invalid</li>
-      </ul>
-      <li>Internal Server Error</li>
-      <ul>
-        <li>Internal server error occured</li>
-      </ul>
-    </ul>
-  </td>
-  </tr>
-</table>
+| Success | Return a list of Books registered as user's favorite. |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInternal Server ErrorInternal server error occured |
 
 #### Success Schema
 

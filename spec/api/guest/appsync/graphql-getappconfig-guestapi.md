@@ -1,10 +1,10 @@
-# guest/getAppConfig
+# getAppConfig
 
 ## Overview
 
 | Endpoint | Name | Type | Authentication |
 | --- | --- | --- | --- |
-| /graphql | getAppConfig | Graphql(POST) | Required |
+| /graphql | getAppConfig | Graphql\(POST\) | Required |
 
 Retrieves the system setting information such as external site URL information.
 
@@ -33,39 +33,17 @@ query {
 
 Must set token to ‘Authorization’ HTTP header.
 
-ex) Authorization: Bearer asdfasdfasdfasdfasdf
+ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
 
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li>Retrieves the system setting information such as external site URL information.</li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication Failure</li>
-      <ul>
-        <li>Session token is invalid</li>
-      </ul>
-      <li>Invalid Argument</li>
-      <ul>
-        <li>Page token is invalid</li>
-        <li>Sort parameter is invalid</li>
-      </ul>
-      <li>Internal Server Error</li>
-      <ul>
-        <li>Internal server error occured</li>
-      </ul>
-    </ul>
-  </td>
-  </tr>
-</table>
+| Success | Retrieves the system setting information such as external site URL information. |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInvalid ArgumentPage token is invalidSort parameter is invalidInternal Server ErrorInternal server error occured |
 
 #### Success Schema
-```
+
+```text
 {
   data : {
     getStoreCategories: {

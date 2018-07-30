@@ -34,21 +34,9 @@ ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
 
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li>Return added config infomation</li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication FailureSession token is invalid</li>
-      <li>Internal Server Error</li>
-    </ul>
-  </td>
-  </tr>
-</table>
+| Success | Return added config infomation |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInternal Server Error |
 
 #### Success Schema
 

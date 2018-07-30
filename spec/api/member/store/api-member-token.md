@@ -1,4 +1,4 @@
-# api-member-token
+# api/member/token
 
 ## Overview
 

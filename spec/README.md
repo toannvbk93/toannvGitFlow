@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
-* [Introduction](intruduction/README.md)
-* [API Interfaces](api/README.md)
-* [Database](databaes/README.md)
+* [Introduction](https://github.com/toannvbk93/toannvGitFlow/tree/ae8dfb8431fd596fb02f47ae5ebea1fa9a5a0e82/spec/intruduction/README.md)
+* [API Interfaces](api/)
+* [Database](https://github.com/toannvbk93/toannvGitFlow/tree/ae8dfb8431fd596fb02f47ae5ebea1fa9a5a0e82/spec/databaes/README.md)
+

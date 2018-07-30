@@ -1,4 +1,5 @@
-# Admin API reference
+# admin
 
- - [Store](store/README.md)
- - [AppSync](appsync/README.md)
+* [Store]()
+* [AppSync]()
+

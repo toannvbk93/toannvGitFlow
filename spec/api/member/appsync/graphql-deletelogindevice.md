@@ -4,7 +4,7 @@
 
 | Endpoint | Name | Type | Authentication |
 | --- | --- | --- | --- |
-| /graphql | deleteLoginDevice | Graphql (POST) | Required |
+| /graphql | deleteLoginDevice | Graphql \(POST\) | Required |
 
 Deletes specific device information from currently logged in devices.
 
@@ -32,27 +32,9 @@ ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
 
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li>Deletes specific device information from currently logged in devices</li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication Failure</li>
-      <ul>
-        <li>Session token is invalid</li>
-      </ul>
-      <li>Internal Server Error</li>
-      <ul>
-        <li>Internal server error occured</li>
-      </ul>
-    </ul>
-  </td>
-  </tr>
-</table>
+| Success | Deletes specific device information from currently logged in devices |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInternal Server ErrorInternal server error occured |
 
 #### Success Schema
 

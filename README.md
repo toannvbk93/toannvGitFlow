@@ -1,4 +1,4 @@
-# Introduction
+# abc
 
 This document describe about the guides for development of tp-store-service.
 
@@ -9,7 +9,7 @@ This document describe about the guides for development of tp-store-service.
 
 ## Specification
 
-* [Index]()
+* [Index](./)
 * [Introduction](https://github.com/lunascape/tp-store-service/tree/65b8e7f7c9423c4db9c9a96ee1b366319398094d/docs/spec/introduction.md)
-* [API Reference]()
+* [API Reference](./)
 

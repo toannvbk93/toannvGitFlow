@@ -7,7 +7,7 @@
 | /gapi/guest | [lamchinsu](guest/store/gapi-guest-search.md) | Searches the titles by keywords and retrieves the results as a list of titles. |
 | /gapi/guest | [getBookListByCategoryId](guest/store/gapi-guest-getbooklistbycategoryid.md) | Retrieves a list of books corresponding to the store categories. |
 | /gapi/guest | [getBookListByTitleId](guest/store/gapi-guest-getbooklistbytitleid.md) | Retrieves a list of books corresponding to the title. |
-| /gapi/guest | [getBook](guest/store/gapi-guest-getbook.md) | Retrieves information of a book. 
+| /gapi/guest | [getBook](guest/store/gapi-guest-getbook.md) | Retrieves information of a book. |
 | /gapi/guest | [getBookDownloadInfo](guest/store/gapi-guest-getbookdownloadinfo.md) | Retrieves the required information to download/view books. |
 | /gapi/guest | [getStoreCategories](guest/store/gapi-guest-getstorecategories.md) | Retrieves all store categories. \(Argument candidates: top, recommend, ranking and orderby\) |
 | /gapi/guest | [getSuggestWords](guest/store/gapi-guest-getsuggestwords.md) | Retrieves suggest words corresponding to an arbitrary word. |
@@ -17,7 +17,7 @@
 | Endpoint | Function | Description |
 | --- | --- | --- |
 | /graphql | [getNoticeList](guest/appsync/graphql-getnoticelist-guestapi.md) | Retrieves a list of notices. |
-| /graphql | [getAppVersionInfo](guest/appsync/graphql-getappversioninfo-guestapi.md) | Retrieves the latest version information (force update) of the app. |
+| /graphql | [getAppVersionInfo](guest/appsync/graphql-getappversioninfo-guestapi.md) | Retrieves the latest version information \(force update\) of the app. |
 | /graphql | [getAppConfig](guest/appsync/graphql-getappconfig-guestapi.md) | Retrieves the system setting information such as external site URL information. |
 
 ## Member Web Endpoint List
@@ -37,16 +37,16 @@
 
 | Endpoint | Function | Description |
 | --- | --- | --- |
-| /gapi/member | [login](member/store/gapi-member-login.md) | Login to the store API server. |
-| /gapi/member | [logout](member/store/gapi-member-logout.md) | Logout from the store API server |
+| /gapi/member | [login](member/store-1/gapi-member-login.md) | Login to the store API server. |
+| /gapi/member | [logout](member/store-1/gapi-member-logout.md) | Logout from the store API server |
 | /gapi/member | [renewToken](member/store/gapi-member-renewtoken.md) | Re-retrieves the custom token necessary for using the API. |
-| /gapi/member | [search](member/store/gapi-member-search.md) | Searches the titles by keywords and retrieves the results as a list of titles. |
-| /gapi/member | [getBookListByCategoryId](member/store/gapi-member-getbooklistbycategoryid.md) | Retrieves a list of books corresponding to the store categories. |
-| /gapi/member | [getBookListByTitleId](member/store/gapi-member-getbooklistbytitleid.md) | Retrieves a list of books corresponding to the title. Or retrieves a list of books from book ID list. |
-| /gapi/member | [getBook](member/store/gapi-member-getbook.md) | Retrieves information of a book in the title. |
-| /gapi/member | [getBookDownloadInfo](member/store/gapi-member-getbookdownloadinfo.md) | Retrieves the required information to download/view books. |
-| /gapi/member | [getStoreCategories](member/store/gapi-member-getstorecategories.md) | Retrieves all store categories. \(Argument candidates: top, recommend, ranking and orderby\) |
-| /gapi/member | [getSuggestWords](member/store/gapi-member-getsuggestwords.md) | Suggest Word |
+| /gapi/member | [search](member/store-1/gapi-member-search.md) | Searches the titles by keywords and retrieves the results as a list of titles. |
+| /gapi/member | [getBookListByCategoryId](member/store-1/gapi-member-getbooklistbycategoryid.md) | Retrieves a list of books corresponding to the store categories. |
+| /gapi/member | [getBookListByTitleId](member/store-1/gapi-member-getbooklistbytitleid.md) | Retrieves a list of books corresponding to the title. Or retrieves a list of books from book ID list. |
+| /gapi/member | [getBook](member/store-1/gapi-member-getbook.md) | Retrieves information of a book in the title. |
+| /gapi/member | [getBookDownloadInfo](member/store-1/gapi-member-getbookdownloadinfo.md) | Retrieves the required information to download/view books. |
+| /gapi/member | [getStoreCategories](member/store-1/gapi-member-getstorecategories.md) | Retrieves all store categories. \(Argument candidates: top, recommend, ranking and orderby\) |
+| /gapi/member | [getSuggestWords](member/store-1/gapi-member-getsuggestwords.md) | Suggest Word |
 
 ## Member API List \(AppSync\)
 
@@ -81,31 +81,31 @@
 
 | Endpoint | Function | Description |
 | --- | --- | --- |
-| /gapi/admin | [login](admin/store/gapi-admin-login.md) | Logs in to the store API server for administrators |
+| /gapi/admin | [login](admin/store-1/gapi-admin-login.md) | Logs in to the store API server for administrators |
 | /gapi/admin | [logout](https://github.com/lunascape/tp-store-service/tree/512ef7238eff8134b60550d4d5447dd59c3b4bf0/admin/store/gapi-admin-logout.md) | Logs out from the store API server for administrators |
-| /gapi/admin | [renewToken](admin/store/gapi-admin-renewtoken.md) | Re-retrieves the custom token necessary for using the API for administrators. |
-| /gapi/admin | [getTitleList](admin/store/gapi-admin-gettitlelist.md) | Retrieves a list of titles under specified conditions. |
-| /gapi/admin | [getTitle](admin/store/gapi-admin-gettitle.md) | Retrieves title information. |
-| /gapi/admin | [addTitle](admin/store/gapi-admin-addtitle.md) | Adds title information. |
-| /gapi/admin | [updateTitle](admin/store/gapi-admin-updatetitle.md) | Updates title information. \(Only store-specific information can be updated\) |
-| /gapi/admin | [deleteTitle](admin/store/gapi-admin-deletetitle.md) | Physically deletes title information. \(This is for emergency use. Please use update when deleting logically\) |
-| /gapi/admin | [getBook](admin/store/gapi-admin-getbook.md) | Retrieves book information. |
-| /gapi/admin | [addBook](admin/store/gapi-admin-addbook.md) | Adds book information. |
-| /gapi/admin | [updateBook](admin/store/gapi-admin-updatebook.md) | Updates book information. Physically deletes title information. |
-| /gapi/admin | [deleteBook](admin/store/gapi-admin-deletebook.md) | Deletes book information. \(This is for emergency use. Please use update when deleting logically\) |
-| /gapi/admin | [getDCCategories](admin/store/gapi-admin-getdccategories.md) | Retrieves all DC category information. |
-| /gapi/admin | [addDCCategory](admin/store/gapi-admin-adddccategory.md) | Adds DC category information. |
-| /gapi/admin | [updateDCCategory](admin/store/gapi-admin-updatedccategory.md) | Updates DC category information. |
+| /gapi/admin | [renewToken](admin/store-1/gapi-admin-renewtoken.md) | Re-retrieves the custom token necessary for using the API for administrators. |
+| /gapi/admin | [getTitleList](admin/store-1/gapi-admin-gettitlelist.md) | Retrieves a list of titles under specified conditions. |
+| /gapi/admin | [getTitle](admin/store-1/gapi-admin-gettitle.md) | Retrieves title information. |
+| /gapi/admin | [addTitle](admin/store-1/gapi-admin-addtitle.md) | Adds title information. |
+| /gapi/admin | [updateTitle](admin/store-1/gapi-admin-updatetitle.md) | Updates title information. \(Only store-specific information can be updated\) |
+| /gapi/admin | [deleteTitle](admin/store-1/gapi-admin-deletetitle.md) | Physically deletes title information. \(This is for emergency use. Please use update when deleting logically\) |
+| /gapi/admin | [getBook](admin/store-1/gapi-admin-getbook.md) | Retrieves book information. |
+| /gapi/admin | [addBook](admin/store-1/gapi-admin-addbook.md) | Adds book information. |
+| /gapi/admin | [updateBook](admin/store-1/gapi-admin-updatebook.md) | Updates book information. Physically deletes title information. |
+| /gapi/admin | [deleteBook](admin/store-1/gapi-admin-deletebook.md) | Deletes book information. \(This is for emergency use. Please use update when deleting logically\) |
+| /gapi/admin | [getDCCategories](admin/store-1/gapi-admin-getdccategories.md) | Retrieves all DC category information. |
+| /gapi/admin | [addDCCategory](admin/store-1/gapi-admin-adddccategory.md) | Adds DC category information. |
+| /gapi/admin | [updateDCCategory](admin/store-1/gapi-admin-updatedccategory.md) | Updates DC category information. |
 | /gapi/admin | [deleteDCategory](https://github.com/lunascape/tp-store-service/tree/31d58ae4aa097f07f6b2c77383aeaf092df8fc48/docs/spec/api/admin/store/gapi-admin-deleteDCategory.md) | Deletes DC category information. |
-| /gapi/admin | [getStoreCategory](admin/store/gapi-admin-getstorecategory.md) | Store category includes top category, recommendation information, ranking information. |
-| /gapi/admin | [addStoreCategory](admin/store/gapi-admin-addstorecategory.md) | Adds store category information. |
-| /gapi/admin | [updateStoreCategory](admin/store/gapi-admin-updatestorecategory.md) | Updates store category information. |
-| /gapi/admin | [deleteStoreCategory](admin/store/gapi-admin-deletestorecategory.md) | Deletes store category information. |
-| /gapi/admin | [getAdminUserList](admin/store/gapi-admin-getadminuserlist.md) | Searches admin users and retrieves the list. |
-| /gapi/admin | [getAdminUser](admin/store/gapi-admin-getadminuser.md) | Retrieves admin user information. |
-| /gapi/admin | [addAdminUser](admin/store/gapi-admin-addadminuser.md) | Adds admin user information. |
-| /gapi/admin | [updateAdminUser](admin/store/gapi-admin-updateadminuser.md) | Updates admin user information. |
-| /gapi/admin | [deleteAdminUser](admin/store/gapi-admin-deleteadminuser.md) | Deletes admin user information. |
+| /gapi/admin | [getStoreCategory](admin/store-1/gapi-admin-getstorecategory.md) | Store category includes top category, recommendation information, ranking information. |
+| /gapi/admin | [addStoreCategory](admin/store-1/gapi-admin-addstorecategory.md) | Adds store category information. |
+| /gapi/admin | [updateStoreCategory](admin/store-1/gapi-admin-updatestorecategory.md) | Updates store category information. |
+| /gapi/admin | [deleteStoreCategory](admin/store-1/gapi-admin-deletestorecategory.md) | Deletes store category information. |
+| /gapi/admin | [getAdminUserList](admin/store-1/gapi-admin-getadminuserlist.md) | Searches admin users and retrieves the list. |
+| /gapi/admin | [getAdminUser](admin/store-1/gapi-admin-getadminuser.md) | Retrieves admin user information. |
+| /gapi/admin | [addAdminUser](admin/store-1/gapi-admin-addadminuser.md) | Adds admin user information. |
+| /gapi/admin | [updateAdminUser](admin/store-1/gapi-admin-updateadminuser.md) | Updates admin user information. |
+| /gapi/admin | [deleteAdminUser](admin/store-1/gapi-admin-deleteadminuser.md) | Deletes admin user information. |
 
 ## Admin API List \(AppSync\)
 

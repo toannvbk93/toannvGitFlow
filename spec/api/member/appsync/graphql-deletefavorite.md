@@ -4,7 +4,7 @@
 
 | Endpoint | Name | Type | Authentication |
 | --- | --- | --- | --- |
-| /graphql | deleteFavorite | Graphql (POST) | Required |
+| /graphql | deleteFavorite | Graphql \(POST\) | Required |
 
 Deletes a specific title from my list.
 
@@ -31,27 +31,10 @@ Must set token to ‘Authorization’ HTTP header.
 ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li>Deletes a specific title from my list.</li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication Failure</li>
-      <ul>
-        <li>Session token is invalid</li>
-      </ul>
-      <li>Internal Server Error</li>
-      <ul>
-        <li>Internal server error occured</li>
-      </ul>
-    </ul>
-  </td>
-  </tr>
-</table>
+
+| Success | Deletes a specific title from my list. |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInternal Server ErrorInternal server error occured |
 
 #### Success Schema
 

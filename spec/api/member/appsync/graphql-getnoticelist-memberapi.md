@@ -1,10 +1,10 @@
-# member/getNoticeList
+# getNoticeList
 
 ## Overview
 
 | Endpoint | Name | Type | Authentication |
 | --- | --- | --- | --- |
-| /graphql | getNoticeList | Graphql (POST) | Required |
+| /graphql | getNoticeList | Graphql \(POST\) | Required |
 
 Get information List
 
@@ -37,32 +37,9 @@ ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
 
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li>  Return list of notifications </li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication Failure</li>
-      <ul>
-        <li>Session token is invalid</li>
-      </ul>
-      <li>Invalid Argument</li>
-      <ul>
-        <li>Page token is invalid</li>
-        <li>Sort parametor is invalid</li>
-      </ul>
-      <li>Internal Server Error</li>
-      <ul>
-        <li>Internal server error occured</li>
-      </ul>
-    </ul>
-  </td>
-  </tr>
-</table>
+| Success |  Return list of notifications |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInvalid ArgumentPage token is invalidSort parametor is invalidInternal Server ErrorInternal server error occured |
 
 #### Success Schema
 

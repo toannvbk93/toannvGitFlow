@@ -1,10 +1,10 @@
-# member/getAppVersionInfo
+# getAppVersionInfo
 
 ## Overview
 
 | Endpoint | Name | Type | Authentication |
 | --- | --- | --- | --- |
-| /graphql | getAppVersionInfo | Graphql (POST) | Required |
+| /graphql | getAppVersionInfo | Graphql \(POST\) | Required |
 
 Get the latest version information of the native application. It is necessary to specify the type of application \(iPhone / Android\).
 
@@ -37,32 +37,9 @@ ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
 
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li> Retrieves the latest version information \(force update\) of the app.</li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication Failure</li>
-      <ul>
-        <li>Session token is invalid</li>
-      </ul>
-      <li>Invalid Argument</li>
-      <ul>
-        <li>Page token is invalid</li>
-        <li>Sort parametor is invalid</li>
-      </ul>
-      <li>Internal Server Error</li>
-      <ul>
-        <li>Internal server error occured</li>
-      </ul>
-    </ul>
-  </td>
-  </tr>
-</table>
+| Success |  Retrieves the latest version information \\(force update\\) of the app. |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInvalid ArgumentPage token is invalidSort parametor is invalidInternal Server ErrorInternal server error occured |
 
 #### Success Schema
 

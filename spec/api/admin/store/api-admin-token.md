@@ -1,10 +1,10 @@
-# admin/token\(POST\)
+# api/admin/token\)
 
 ## Overview
 
-| Endpoint | Name |Type |
+| Endpoint | Name | Type |
 | --- | --- | --- |
-| /api/admin/token | token (Administrator) | POST |
+| /api/admin/token | token \(Administrator\) | POST |
 
 Re-retrieves the token necessary for using the API.
 
@@ -41,3 +41,4 @@ None
     }
 }
 ```
+

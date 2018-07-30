@@ -1,10 +1,10 @@
-# member/getAppConfig
+# getAppConfig
 
 ## Overview
 
 | Endpoint | Name | Type | Authentication |
 | --- | --- | --- | --- |
-| /graphql | getAppConfig | Graphql (POST) | Required |
+| /graphql | getAppConfig | Graphql \(POST\) | Required |
 
 Get a list of external site URL information. The list contains all URL. The list has key and value pair. Key is identifier of url, value is URL and label
 
@@ -36,32 +36,10 @@ Must set token to ‘Authorization’ HTTP header.
 ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li>Get a list of external site URL information.</li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication Failure</li>
-      <ul>
-        <li>Session token is invalid</li>
-      </ul>
-      <li>Invalid Argument</li>
-      <ul>
-        <li>Page token is invalid</li>
-        <li>Sort parametor is invalid</li>
-      </ul>
-      <li>Internal Server Error</li>
-      <ul>
-        <li>Internal server error occured</li>
-      </ul>
-    </ul>
-  </td>
-  </tr>
-</table>
+
+| Success | Get a list of external site URL information. |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInvalid ArgumentPage token is invalidSort parametor is invalidInternal Server ErrorInternal server error occured |
 
 #### Success Schema
 

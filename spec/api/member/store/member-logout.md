@@ -1,26 +1,34 @@
 # member/logout
 
 ## Overview
+
 | Endpoint | Name | Type |
-| ---- | ---- | ---- | 
-| /member/logout | logout | POST | 
+| --- | --- | --- |
+| /member/logout | logout | POST |
 
 Authentication
 
 ## Specification
-### Request 
+
+### Request
 
 None
+
 ### Parameters
 
 | Name | Type | Default | Description |
 | --- | --- | --- | --- |
-| (none) | | | |
+| \(none\) |  |  |  |
+
 ### Request Header
+
 Session id in cookie
 
 ### Response
+
 Redirect to “/”
 
-#### Sample 
+#### Sample
+
 TBD
+

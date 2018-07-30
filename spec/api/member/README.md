@@ -1,4 +1,5 @@
-# Member API reference
+# member
 
- - [Store](store/README.md)
- - [AppSync](appsync/README.md)
+* [Store]()
+* [AppSync](appsync/)
+

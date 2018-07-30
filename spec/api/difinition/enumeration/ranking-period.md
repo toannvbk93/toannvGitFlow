@@ -1,8 +1,10 @@
 # RankingPeriod
+
 Represents the period of the ranking information.
 
 ## Schema
-```
+
+```text
 enum RankingPeriod {
   Daily
   Weekly
@@ -11,7 +13,9 @@ enum RankingPeriod {
   All
 }
 ```
+
 ## Params
+
 | Name | Description | Note |
 | --- | --- | --- |
 | Daily | Represents daily ranking. | - |
@@ -19,3 +23,4 @@ enum RankingPeriod {
 | Monthly | Represents monthly ranking. | - |
 | Yearly | Represents yearly ranking. | - |
 | All | Represents ranking of the entire period. | - |
+

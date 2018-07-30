@@ -4,7 +4,7 @@
 
 | Endpoint | Name | Type | Authentication |
 | --- | --- | --- | --- |
-| /gapi/guest | getSuggestWords | Graphql(POST) | Required |
+| /gapi/guest | getSuggestWords | Graphql\(POST\) | Required |
 
 Retrieves suggest words corresponding to an arbitrary word.
 
@@ -28,37 +28,13 @@ query {
 
 must set token to ‘Authorization’ HTTP header.
 
-ex) Authorization: Bearer asdfasdfasdfasdfasdf
+ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
 
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li>Retrieves suggest words corresponding to an arbitrary word.</li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication Failure</li>
-      <ul>
-        <li>Session token is invalid</li>
-      </ul>
-      <li>Invalid Argument</li>
-      <ul>
-        <li>Page token is invalid</li>
-        <li>Sort parameter is invalid</li>
-      </ul>
-      <li>Not Found</li>
-      <li>Internal Server Error</li>
-      <ul>
-        <li>Internal server error occured</li>
-      </ul>
-    </ul>
-  </td>
-  </tr>
-</table>
+| Success | Retrieves suggest words corresponding to an arbitrary word. |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInvalid ArgumentPage token is invalidSort parameter is invalidNot FoundInternal Server ErrorInternal server error occured |
 
 #### Success Schema
 

@@ -34,21 +34,9 @@ ex\) Authorization: Bearer asdfasdfasdfasdfasdf
 
 ### Result
 
-<table>
-<tr>
-  <td>Success</td>
-  <td><ul><li>Return updated notice information</li></ul></td>
-</tr>
-<tr>
-  <td>ErrorType</td>
-  <td>
-    <ul>
-      <li>Authentication FailureSession token is invalid</li>
-      <li>Internal Server Error</li>
-    </ul>
-  </td>
-  </tr>
-</table>
+| Success | Return updated notice information |
+| --- | --- |
+| ErrorType | Authentication FailureSession token is invalidInternal Server Error |
 
 #### Success Schema
 
