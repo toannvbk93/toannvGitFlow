@@ -23,7 +23,7 @@
         * [UserAgent](spec/api/difinition/input-type/user-agent.md)
       * [Errotype List](spec/api/difinition/errortype-list/error-type-list.md)
     * [guest](spec/api/guest/README.md)
-      * [store(Grapapi)](spec/api/guest/store/README.md)
+      * [store(ToannvTest)](spec/api/guest/store/README.md)
         * [search](spec/api/guest/store/gapi-guest-search.md)
         * [getBookListByCategoryId](spec/api/guest/store/gapi-guest-getbooklistbycategoryid.md)
         * [getBookListByRanking](spec/api/guest/store/gapi-guest-getbooklistbyranking.md)
