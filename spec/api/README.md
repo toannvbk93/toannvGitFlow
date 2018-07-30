@@ -4,7 +4,7 @@
 
 | Endpoint | Function | Description |
 | --- | --- | --- |
-| /gapi/guest | [search](guest/store/gapi-guest-search.md) | Searches the titles by keywords and retrieves the results as a list of titles. |
+| /gapi/guest | [lamchinsu](guest/store/gapi-guest-search.md) | Searches the titles by keywords and retrieves the results as a list of titles. |
 | /gapi/guest | [getBookListByCategoryId](guest/store/gapi-guest-getbooklistbycategoryid.md) | Retrieves a list of books corresponding to the store categories. |
 | /gapi/guest | [getBookListByTitleId](guest/store/gapi-guest-getbooklistbytitleid.md) | Retrieves a list of books corresponding to the title. |
 | /gapi/guest | [getBook](guest/store/gapi-guest-getbook.md) | Retrieves information of a book. 
