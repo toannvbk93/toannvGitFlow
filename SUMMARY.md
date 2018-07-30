@@ -1,6 +1,6 @@
 # Table of contents
 
-* [abc](README.md)
+* [Information](README.md)
 * [Development Guide](development/README.md)
   * [coding-style](development/coding-style.md)
   * [folder\_structure](development/folder_structure.md)
